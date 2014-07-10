@@ -24,5 +24,4 @@ The ``main.css`` file is generated from the ``compass/src/main.scss`` sass file,
 Screenshot
 ----------
 
-.. image:: screenshot.png
-   :alt: Screenshot of the theme
+<Screenshot coming soon :) >
