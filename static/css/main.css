@@ -92,55 +92,56 @@ a:hover {
 /* line 78, ../../compass/src/main.scss */
 ul, ol {
   padding: 0.5em 0em 1em 0.1em;
+  list-style-type: none;
 }
-/* line 80, ../../compass/src/main.scss */
+/* line 81, ../../compass/src/main.scss */
 ul li, ol li {
   line-height: 30px;
   padding: 6px 0 0 0;
 }
 
-/* line 86, ../../compass/src/main.scss */
+/* line 88, ../../compass/src/main.scss */
 strong {
   color: #555555;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
 }
 
-/* line 92, ../../compass/src/main.scss */
+/* line 94, ../../compass/src/main.scss */
 tt, pre {
   background-color: #fafafa;
   font-family: 'Ubuntu Mono', Inconsolata, Monaco, monospace;
   line-height: 1.2em;
 }
 
-/* line 98, ../../compass/src/main.scss */
+/* line 100, ../../compass/src/main.scss */
 pre {
   font-size: 0.8em;
   overflow: auto;
   padding: 10px;
 }
 
-/* line 105, ../../compass/src/main.scss */
+/* line 107, ../../compass/src/main.scss */
 header a {
   border-bottom: none;
 }
-/* line 107, ../../compass/src/main.scss */
+/* line 109, ../../compass/src/main.scss */
 header a#page-title {
   font-weight: bold;
 }
 
-/* line 111, ../../compass/src/main.scss */
+/* line 113, ../../compass/src/main.scss */
 #article-list {
   margin-top: 100px;
 }
-/* line 113, ../../compass/src/main.scss */
+/* line 115, ../../compass/src/main.scss */
 #article-list ol li {
   line-height: 1.2em;
   list-style-type: none;
   padding-bottom: 10px;
 }
 
-/* line 120, ../../compass/src/main.scss */
+/* line 122, ../../compass/src/main.scss */
 nav {
   background: #fff;
   color: #666;
@@ -148,21 +149,21 @@ nav {
   font-size: 13px;
   letter-spacing: 4px;
 }
-/* line 126, ../../compass/src/main.scss */
+/* line 128, ../../compass/src/main.scss */
 nav a {
   border-bottom: none;
   color: #c0c0c0;
 }
-/* line 130, ../../compass/src/main.scss */
+/* line 132, ../../compass/src/main.scss */
 nav li {
   display: inline;
 }
-/* line 133, ../../compass/src/main.scss */
+/* line 135, ../../compass/src/main.scss */
 nav p {
   text-align: right;
 }
 
-/* line 138, ../../compass/src/main.scss */
+/* line 140, ../../compass/src/main.scss */
 footer {
   background: #fff;
   color: #666;
@@ -171,16 +172,16 @@ footer {
   letter-spacing: 4px;
   padding-top: 2em;
 }
-/* line 145, ../../compass/src/main.scss */
+/* line 147, ../../compass/src/main.scss */
 footer a {
   border-bottom: none;
   color: #c0c0c0;
 }
-/* line 149, ../../compass/src/main.scss */
+/* line 151, ../../compass/src/main.scss */
 footer li {
   display: inline;
 }
-/* line 152, ../../compass/src/main.scss */
+/* line 154, ../../compass/src/main.scss */
 footer p {
   text-align: right;
 }

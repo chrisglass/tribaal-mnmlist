@@ -77,11 +77,13 @@ a {
 
 ul, ol {
     padding: 0.5em 0em 1em 0.1em;
+    list-style-type: none;
     li {
         line-height: 30px;
         padding: 6px 0 0 0;
     }
 }
+
 
 strong {
     color: #555555;
