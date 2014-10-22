@@ -31,14 +31,14 @@ h1 {
 h2 {
   color: #666666;
   font-family: Ubuntu, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 /* line 38, ../../compass/src/main.scss */
 h3 {
   color: #666666;
   font-family: Ubuntu, sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 /* line 42, ../../compass/src/main.scss */
@@ -51,7 +51,7 @@ h4 {
 /* line 46, ../../compass/src/main.scss */
 time {
   color: #c0c0c0;
-  font-size: 50%;
+  font-size: 75%;
 }
 
 /* line 51, ../../compass/src/main.scss */
@@ -91,8 +91,8 @@ a:hover {
 
 /* line 78, ../../compass/src/main.scss */
 ul, ol {
-  padding: 0.5em 0em 1em 0.1em;
-  list-style-type: none;
+  padding: 0em 0em 1em 0.1em;
+  #list-style-position: inside;
 }
 /* line 81, ../../compass/src/main.scss */
 ul li, ol li {

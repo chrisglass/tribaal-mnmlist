@@ -32,11 +32,11 @@ h1 {
 }
 
 h2 {
-    @include heading(1.2em);
+    @include heading(1.3em);
 }
 
 h3 {
-    @include heading(0.9em);
+    @include heading(1em);
 }
 
 h4 {
@@ -45,7 +45,7 @@ h4 {
 
 time {
     color: #c0c0c0;
-    font-size: 50%;
+    font-size: 75%;
 }
 
 img {
@@ -76,8 +76,8 @@ a {
 }
 
 ul, ol {
-    padding: 0.5em 0em 1em 0.1em;
-    list-style-type: none;
+    padding: 0em 0em 1em 0.1em;
+    #list-style-position: inside;
     li {
         line-height: 30px;
         padding: 6px 0 0 0;
