@@ -33,15 +33,12 @@
             {% endfor %}
 
             <li><a href="{{SITEURL}}">Home</a> ::</li>
-            <li><a href="{{SITEURL}}/archives.html">Archive</a>{% if tags|length > 1 or categories|length > 1%} ::{% endif %}</li>
-
-            {% if tags|length > 1 %}
-            <li><a href="{{ SITEURL }}/tags.html">Tags</a>{% if categories|length > 1 %} ::{% endif %}</li>
-            {% endif %}
 
             {% if categories|length > 1 %}
-                <li><a href="{{ SITEURL }}/categories.html">Categories</a></li>
+                <li><a href="{{ SITEURL }}/categories.html">Categories</a> ::</li>
             {% endif %}
+
+            <li><a href="{{SITEURL}}/archives.html">Archive</a</li>
 
             </ul>
         </nav>
