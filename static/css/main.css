@@ -1,4 +1,3 @@
-@import url("pygment.css");
 /*
     Theme Name: mnmlist
     Theme URI: http://mathieu.agopian.info/mnmlist/theme.html
@@ -8,6 +7,7 @@
 
     This theme is uncopyrighted, free, and offered as is.
 */
+/*@import url("pygment.css");*/
 /* line 13, ../../compass/src/main.scss */
 body {
   background: #fff;

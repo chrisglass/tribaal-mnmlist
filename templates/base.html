@@ -3,12 +3,9 @@
 <head>
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <meta charset="utf-8" />
+        <meta name=viewport content="width=device-width, initial-scale=1" />
 
-        <link async="async" href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-        <link async="async" href='//fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
- 
-        <link async="async" rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
-
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
         <link rel="icon" type="image/png" href="/favicon.png" />
 
         <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
@@ -63,8 +60,12 @@
         <p id="theme-credit"><a href="https://github.com/chrisglass/tribaal-mnmlist">tribaal-mnmlist Theme</a></p>
         </footer>
 
-{% include 'analytics.html' %}
 {% include 'piwik.html' %}
 {% include 'disqus_script.html' %}
+{% include 'analytics.html' %}
+
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygment.css" type="text/css" />
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 </body>
 </html>
