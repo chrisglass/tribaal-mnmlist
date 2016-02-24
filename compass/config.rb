@@ -4,3 +4,5 @@ css_dir = "../static/css"
 sass_dir = "src"
 # To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true
+# Enable compression
+output_style = :compressed

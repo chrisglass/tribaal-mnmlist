@@ -5,10 +5,9 @@
         <meta charset="utf-8" />
         <meta name=viewport content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
         <link rel="icon" type="image/png" href="/favicon.png" />
 
-        <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+        <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
         {% if FEED_RSS %}
         <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
@@ -38,7 +37,7 @@
                 <li><a href="{{ SITEURL }}/categories.html">Categories</a> ::</li>
             {% endif %}
 
-            <li><a href="{{SITEURL}}/archives.html">Archive</a</li>
+            <li><a href="{{SITEURL}}/archives.html">Archive</a></li>
 
             </ul>
         </nav>
@@ -61,8 +60,9 @@
 {% include 'disqus_script.html' %}
 {% include 'analytics.html' %}
 
-<link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygment.css" type="text/css" />
-<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link property='stylesheet' rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+<link property='stylesheet' rel="stylesheet" href="{{ SITEURL }}/theme/css/pygment.css" type="text/css" />
+<link property='stylesheet' href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link property='stylesheet' href='//fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 </body>
 </html>
